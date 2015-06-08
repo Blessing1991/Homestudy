@@ -1,0 +1,135 @@
+body {
+	text-align: center;
+	background-position: center; 
+}
+
+h3 {
+	text-align: left;
+	color: white;
+	padding-top: 300px;
+	padding-left: 165px;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 0;
+	line-height: 40px !important;
+
+}
+h6{
+	opacity: 0.85;
+	text-align: left;
+	padding-left: 170px;
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+img {
+	height: 146px;
+	width: 270px;
+	float:right;
+  margin-left:40px;
+}
+img:hover {
+	opacity: 0.1;
+}
+p {
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	padding-left: 165px;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 0;
+	line-height: 12px;
+
+}
+.black-overlay {
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,.7); ;
+}
+.display-info {
+	/*background-color: black;*/
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url('./image/display.jpg');
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	margin-top: -23px;
+}
+.icon {
+	float:right;
+  margin-left:20px;
+}
+.btn-floating.btn-large {
+	float: right;
+	margin-right: 80px;
+	margin-top: 80px;
+}
+.text {
+  color: white;
+  text-align: center;
+}
+.icons {
+	padding-left: 145px;
+	float: left;
+}
+.img-space {
+	margin-left: 35px;
+}
+#text {
+	color: white;
+}
+#site1 {
+	background-image: url('./image/calculator1.png');
+	background-size: 100% 100%;
+	height: 160px;
+	width: 270px;
+}
+#site2 {
+	background-image: url('./image/restaurant.jpg');
+	background-size: 100% 100%;
+	height: 160px;
+	width: 270px;
+}
+
+#site3 {
+	background-image: url('./image/blog.jpeg');
+	background-size: 100% 100%;
+	height: 160px;
+	width: 270px;
+}
+.all-projects {
+	margin-left: -9px;
+	margin-top: 30px;
+}
+#site1:hover #overlay {
+	opacity: 1;
+}
+#site2:hover #overlay {
+	opacity: 1;
+}
+#site3:hover #overlay {
+	opacity: 1;
+}
+#overlay {
+	background:rgba(0,0,0,.75);
+  text-align:center;
+  padding:50px 0 66px 0;
+  opacity:0;
+}
+a {
+	color: white !important;
+  /*text-decoration: none;*/
+}
+footer {
+	height: 40px;
+	font-size: 14px;
+	max-height: 250px;
+	width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 300px;
+	background-color: #f1f1f1;
+	text-align: center;
+	padding-top: 10px;
+  color: #434343;
+}
+
